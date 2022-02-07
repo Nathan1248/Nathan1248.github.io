@@ -34,3 +34,6 @@ ul {
 .Buttons button:hover {
     border-color: white;
 }
+.Buttons button:active {
+    background:white;
+}

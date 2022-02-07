@@ -8,19 +8,19 @@ function Navbar() {
     return(
         <div className="Navbar">
             <div className="Logo">
-                <img src={textLogo} width="300" alt="crimson-long-logo"></img>
+                <Link to="/" className="logo-button"><img src={textLogo} width="300" alt="crimson-long-logo"></img></Link>
             </div>
             <div className="Buttons">
             <ul>
                 <li>
-                    <Link to="/current-projects/" className="downloads-button">
+                    <Link to="/downloads/" className="downloads-button">
                         <button type="button">Downloads</button>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/current-projects/" className="documentation-button">
+                    <a href="http://www-personal.umich.edu/~lizliv/index.html" className="documentation-button" target="_blank">
                         <button type="button">Documentation</button>
-                    </Link>
+                    </a>
                 </li>
                 <li>
                     <Link to="/current-projects/" className="publication-button">
@@ -28,7 +28,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/current-projects/" className="documentation-button">
+                    <Link to="/about-us/" className="documentation-button">
                         <button type="button">About us</button>
                     </Link>
                 </li>

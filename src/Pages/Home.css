@@ -1,6 +1,5 @@
-body {
-    background-image: url('../images/index-background.jpeg');
-    background-size:cover;
+.Home {
+    background-image: url('../images/index-background-2.jpeg');
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-size:cover;
 }
