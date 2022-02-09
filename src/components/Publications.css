@@ -1,0 +1,11 @@
+.Publications {
+    width:100%;
+    height:1000px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+.Publications h1 {
+    color:white;
+    font-family:Raleway;
+}

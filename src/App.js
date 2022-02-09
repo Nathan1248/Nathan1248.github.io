@@ -3,8 +3,8 @@ import './App.css';
 import Home from './Pages/Home';
 import DownloadsPage from './Pages/DownloadsPage';
 import AboutUsPage from './Pages/AboutUsPage';
-// import ProjectsPage from './components/pages/ProjectsPage';
-// import AboutUsPage from './components/pages/AboutUsPage';
+import PublicationsPage from './Pages/PublicationsPage';
+import FeaturesPage from './Pages/FeaturesPage';
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
             <Route path='/' exact element={<Home/>} />
             <Route path='/downloads/' exact element={<DownloadsPage />} />
             <Route path='/about-us/' exact element={<AboutUsPage />} />
+            <Route path='/publications/' exact element={<PublicationsPage />} />
+            <Route path='/features/' exact element={<FeaturesPage />} />
         </Routes>
       </Router>
     </div>

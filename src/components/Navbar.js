@@ -23,7 +23,7 @@ function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <Link to="/current-projects/" className="publication-button">
+                    <Link to="/publications/" className="publication-button">
                         <button type="button">Publications</button>
                     </Link>
                 </li>
