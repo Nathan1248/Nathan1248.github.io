@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.a8775b88.js",
-    "static/js/787.5f2a8bad.chunk.js": "/static/js/787.5f2a8bad.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.38556438.css",
+    "main.js": "/static/js/main.9625da3e.js",
+    "static/media/index-background-2.jpeg": "/static/media/index-background-2.1bfa5a93ee3becded71b.jpeg",
+    "static/media/nathanyl.jpg": "/static/media/nathanyl.a2f1cc6426b064425ec7.jpg",
+    "static/media/figueroc.png": "/static/media/figueroc.c7c5cab4813067ce48ef.png",
+    "static/media/erc-logo.png": "/static/media/erc-logo.847b6acf137cc124804c.png",
+    "static/media/crimson-logo-text.png": "/static/media/crimson-logo-text.c062104dcd94d56ed13b.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.a8775b88.js.map": "/static/js/main.a8775b88.js.map",
-    "787.5f2a8bad.chunk.js.map": "/static/js/787.5f2a8bad.chunk.js.map"
+    "main.38556438.css.map": "/static/css/main.38556438.css.map",
+    "main.9625da3e.js.map": "/static/js/main.9625da3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a8775b88.js"
+    "static/css/main.38556438.css",
+    "static/js/main.9625da3e.js"
   ]
 }
