@@ -18,8 +18,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <a href="http://www-personal.umich.edu/~lizliv/index.html" className="documentation-button" target="_blank">
-                        <button type="button">Documentation</button>
+                    <a href="/resources/" className="documentation-button" target="_blank">
+                        <button type="button">Resources</button>
                     </a>
                 </li>
                 <li>
