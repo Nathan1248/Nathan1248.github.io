@@ -13,6 +13,11 @@ function Navbar() {
             <div className="Buttons">
             <ul>
                 <li>
+                    <Link to="/features/" className="features-button">
+                        <button type="button">Features</button>
+                    </Link>
+                </li>
+                <li>
                     <Link to="/downloads/" className="downloads-button">
                         <button type="button">Downloads</button>
                     </Link>
