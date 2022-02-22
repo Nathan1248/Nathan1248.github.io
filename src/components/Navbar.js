@@ -18,7 +18,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <a href="/resources/" className="documentation-button" target="_blank">
+                    <a href="/resources/" className="documentation-button">
                         <button type="button">Resources</button>
                     </a>
                 </li>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Timeline, Follow } from 'react-twitter-widgets'
+import { Timeline } from 'react-twitter-widgets'
 import './Index.css'
 
 function Index() {

@@ -9,9 +9,9 @@ import KingsCollegeLogo from '../images/kingscollege-logo.png'
 function Footer() {
     return (
         <div className="Footer">
-            <img src={UmichLogo} alt="umich-logo"/>
-            <img src={ERCLogo} alt="umich-logo"/>
-            <img src={KingsCollegeLogo} alt="umich-logo"/>
+            <a href="https://bloodflow.engin.umich.edu/" target="_blank"><img src={UmichLogo} alt="umich-logo"/></a>
+            <a href="https://erc.europa.eu/" target="_blank"><img src={ERCLogo} alt="umich-logo"/></a>
+            <a href="https://www.kcl.ac.uk/bmeis" target="_blank"><img src={KingsCollegeLogo} alt="umich-logo"/></a>
         </div>
     )
 }
