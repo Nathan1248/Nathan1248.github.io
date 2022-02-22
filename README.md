@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Getting started
+
+Make sure that you have `nvm` installed on your machine, either [WSL](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl) or [Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows). Check that you are using the correct version of NodeJS with the command `nvm ls`. This repository has been built with v16.4. If you have multiple versions installed, you can switch between them using `nvm use <Version Number>`
+
+Install the site dependencies using the command:
+
+    npm install
+
+Then, use the commands below to test the site. 
+
 ## Available Scripts
 
 In the project directory, you can run:
