@@ -1,0 +1,28 @@
+.Resources {
+    width:80%;
+    height:100%;
+    display:flex;
+    text-align: left;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    border-radius:10px;
+}
+.Resources h1 {
+    color:white;
+    text-align: center;
+    font-family:Raleway;
+}
+.Resources h2 {
+    color:white;
+    margin-left:20px;
+    font-family:Raleway;
+}
+.Resources p {
+    font-size:20px;
+    color:white;
+    width:80%;
+    margin-left:80px;
+    margin-right:auto;
+    font-family:sans-serif;
+}
