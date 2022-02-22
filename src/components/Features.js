@@ -17,7 +17,7 @@ function Features() {
             <img src={'/assets/features/segmentationToolbox.png'} width="400"></img>
             </p>
 
-            <h1>​ADVANCED MESHING FEATURES</h1>
+            <h1>Advance Meshing Features</h1>
             <p>CRIMSON provides extremely powerful meshing tools allowing for endless flexibility to create the ideal mesh for each specific problem.</p>
             <p>For example, CRIMSON provides the end user with a number of powerful meshing features ideally suited to vascular modelling such as boundary layer specification to increase the number of elements close to the vessel wall, curvature refinement to resolve the mesh in regions of high curvature, mesh propagation, to propagate surface mesh parameters into the volume, and a simple method of defining mesh properties locally, providing a remarkable level of mesh parameterization in a clean, simple to use and intuitive interface.​</p>
             <p style={{textAlign: "center"}}>
@@ -50,7 +50,7 @@ function Features() {
             <img src={'/assets/features/pcmri.png'} width="600"></img>
             </p>
 
-            <h1>POSTPROCESSING</h1>
+            <h1>Post Processing</h1>
             <p>CRIMSON has inbuilt visualization tools. Following a simulation, postprocessed results of the time step under examination can be loaded via the Solver Setup's Solution management interface. Any field stored in the results file can be visualized. The Mesh Exploration Tool allows the visualization at any point in the mesh.</p>
             <p style={{textAlign: "center"}}>
             <img src={'/assets/features/postprocessing.png'} width="600"></img>
@@ -72,6 +72,20 @@ function Features() {
             <p style={{textAlign: "center"}}>
             <img src={'/assets/features/crimsonAtAGlance.png'} width="700"></img>
             </p>
+
+            <h1>Software Ingredients</h1>
+
+            <h2><a href="http://mitk.org/wiki/MITK">MITK</a></h2>
+            <p>The overarching environment for loading and manipulating raw medical imaging data.</p>
+
+            <h2><a href="https://www.opencascade.com/">openCascade</a></h2>
+            <p>Solid modelling capabilities to represent the vessels after they have been segmented.</p>
+
+            <h2><a href="http://www.simmetrix.com/products/MeshSim/MeshSim.html">MeshSim</a></h2>
+            <p>Generates tetrahedral volumetric meshes over the segmented solid models.</p>
+
+            <h2><a href="http://verdandi.sourceforge.net/">Verdandi</a></h2>
+            <p>Provides Data Assimilation capabilities for gaining maximum benefit from rich patient datasets.</p>
         </div>
     )
 }
